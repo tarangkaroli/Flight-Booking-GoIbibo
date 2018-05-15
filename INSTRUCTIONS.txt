@@ -1,0 +1,38 @@
+Before executing the protractor configuration file (test/protractor.conf.js), you need to up the selenium server and then you can execute the config file. 
+
+Follow the following steps:
+
+1. You need to have node.js and npm on your system.
+
+2. To install protractor run: npm install -g protractor.
+
+3. To up and run the selenium server navigate to the "SeleniumServerRunner" folder and execute the "run.bat" file; this will update and run the webdriver manager.
+
+4. Execute the protractor.cof.js from the loaction, to execute the test run: "protractor protarctor.conf.js". 
+
+
+===================================================================================================================================================================
+
+
+The files in the project and their functionalities:
+
+1. flightBooking.po.js: Lists all the elements for flight booking page.
+
+2. resource.po.js: List all the common elements used through on two or more pages/options.
+
+3. flightBooking.spec.js: The spec file which lists all the test scenarios & cases to be tested and executed.
+
+4. protractor.conf.js: The configuration file for executing the defined test cases.
+
+5. package.json: Lists all the framework & packages used while writing/executing the test cases defined.
+
+
+===================================================================================================================================================================
+
+If you have any query please, the contact details are:
+
+Tarang Karoli
++91-9821443260
+tarangtributes@gmail.com
+
+*******************************************************************************************************************************************************************

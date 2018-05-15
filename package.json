@@ -1,0 +1,26 @@
+{
+  "name": "springboard",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jasmine-reporters": "^2.1.0",
+    "lodash": "^2.4.1",
+    "protractor": "~3.0.0",
+    "fs-extra": "~0.22.1",
+    "jasmine-spec-reporter": "~2.4.0"
+  },
+
+  "engines": {
+    "node": ">=0.12.0"
+  },
+
+  "scripts": {
+    "test": "gulp test",
+    "install": "node node_modules/protractor/bin/webdriver-manager update"
+  },
+
+  "description": "GUI Test for Springboard task",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  }
+}
