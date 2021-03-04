@@ -16,11 +16,11 @@ Follow the following steps:
 
 The files in the project and their functionalities:
 
-1. flightBooking.po.js: Lists all the elements for flight booking page.
+1. flightReservation.po.js: Lists all the elements for flight booking page.
 
 2. resource.po.js: List all the common elements used through on two or more pages/options.
 
-3. flightBooking.spec.js: The spec file which lists all the test scenarios & cases to be tested and executed.
+3. flightReservation.spec.js: The spec file which lists all the test scenarios & cases to be tested and executed.
 
 4. protractor.conf.js: The configuration file for executing the defined test cases.
 

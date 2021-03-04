@@ -1,26 +1,27 @@
 {
-  "name": "springboard",
+  "name": "shireburn",
   "version": "0.0.1",
   "devDependencies": {
+    "fs-extra": "~0.22.1",
     "jasmine-reporters": "^2.1.0",
+    "jasmine-spec-reporter": "~2.4.0",
     "lodash": "^2.4.1",
     "protractor": "~3.0.0",
-    "fs-extra": "~0.22.1",
-    "jasmine-spec-reporter": "~2.4.0"
+    "protractor-video-reporter": "^0.3.0"
   },
-
   "engines": {
     "node": ">=0.12.0"
   },
-
   "scripts": {
     "test": "gulp test",
     "install": "node node_modules/protractor/bin/webdriver-manager update"
   },
-
-  "description": "GUI Test for Springboard task",
+  "description": "GUI Test for Shireburn task",
   "main": "gulpfile.js",
   "directories": {
     "test": "test"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
   }
 }
