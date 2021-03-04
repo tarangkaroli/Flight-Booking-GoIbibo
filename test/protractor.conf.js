@@ -6,7 +6,7 @@ exports.config = {
     getPageTimeout: 60000,
 
     specs: [
-        './specs/flightBooking.spec.js',
+        './specs/flightReservation.spec.js',
     ],
 
     capabilities: {
